@@ -1,0 +1,4 @@
+update public."Dec_2020"
+set Personalization = substring("Variations" from position('Personalization:' in "Variations")+16) 
+where "Variations" like '%Personalization%'
+;
