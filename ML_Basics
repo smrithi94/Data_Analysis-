@@ -1,0 +1,26 @@
+Basics of ML summarized from ISLR book:
+Machine learning is divided into categories like Supervised Learning, Unsupervised Learning, Reinforcement Learning. ]
+___________________________________________________________________________________________________________________________
+Supervised Learning:
+There are features and also end result in the dataset(combination of inputs and outputs).Examples: Linear Regression,Logistic Regression.
+________________________________________________________________________________________________________________________________________
+Unsupervised Learning:
+There are no end results available.Kind of grouping data not knowing the result. Example: Principle component Analysis, K means 
+_________________________________________________________________________________________________________________________________________
+Cost Function: 
+J(x)=1/2[(Actual-Predicted)^2]
+The aim is to minimize the cost function. If we are given scattered points our aim should be to get the best fit line.
+When we plot x, we get a parabola and the lowest value is the best fit line. 
+___________________________________________________________________________________________________________________________________________
+Gradient Descent:
+Minimizing cost function. 
+The gradient descent eventually converges to a minimum value based on the learning rate (alpha) 
+Case 1: alpha is too small- slow convergence 
+Case 2: alpha is too large- surpasses the local minimum. 
+Gradient Descent can converge to a local minimum. 
+As we approach the local minimum, the gradient descent automatically takes smaller steps. 
+
+Batch Gradient Descent:
+Each step of gradiet descent uses all training examples. 
+_______________________________________________________________________________________________________________________________________________
+
