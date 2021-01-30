@@ -1,0 +1,28 @@
+Linear Regression:
+Finding the relationship between one or more predictors and the target. 
+___________________________________________________________________________________________________________________________________
+Core Idea:
+Core idea is to create a best fit line for the data. 
+The best fit line is the one for which total prediction error (all data points) are as small as possible. Error is the distance between the point to the regression line.
+____________________________________________________________________________________________________________________________________
+Simple Linear Regression:
+Y=b0+b1X
+b0->Point where the line crosses the y axis. 
+b1->Slope of the line 
+____________________________________________________________________________________________________________________________________
+Trendline to best fit your data:
+Minimum Sum of Squares error. 
+_____________________________________________________________________________________________________________________________________
+Multiple Linear Regression:
+Multiple pairs of variables. 
+Dummy Variables: Expanding the columns of the dataset and put 1 if the value is true else put 0. Used to classify categorical variables.
+Dummy Variable Trap: Leads to multiple linearity,always omit one variable.
+____________________________________________________________________________________________________________________________________
+Feature Selection:
+5 methods
+1.All-in
+2.BAckward Elimination
+3.Forward Selection
+4.Bidirectional Comparison
+5.Score Comparison
+___________________________________________________________________________________________________________________________________
